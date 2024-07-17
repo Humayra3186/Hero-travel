@@ -41,6 +41,7 @@ p{
 
 }
 .btn{
+
     color: rgb(255, 255, 255);
     font-family: Mulish;
     font-size: 1.1rem;
@@ -55,6 +56,7 @@ p{
  header{
     width: 100vw;
     height: auto;
+    
  }
 
  /* navbar starts */
@@ -87,7 +89,7 @@ p{
     width: 44%;  
 
  }
- ul{
+  .nav-items ul{
     list-style: none;
     justify-content: space-between;
 
@@ -109,6 +111,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5.89rem 10.2rem;
+    margin-bottom: 5.5rem;
 
  }
  .banner-content{
@@ -128,10 +131,14 @@ p{
     margin-bottom: 2.67rem;
 }
 .banner-form{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
     padding: 0.69rem;
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.3);
-    justify-content: space-between;
+   
 }
 input,select,button{
     width: 9.7rem;
@@ -144,5 +151,40 @@ select{
     color: rgba(19, 19, 24, 0.5);
 }
  /* banner section ends*/
+
+ /* tour section starts*/
+ .tour-section{
+    justify-content: space-between;
+ }
+ .tour-details{
+    width: 48%;
+    height: auto;
+ }
+ .tour-details ul{
+    width: 95%;
+
+    position: relative;
+    left: 0.9rem;
+ }
+ .tour-img {
+    width: 48%;
+ }
+ .tour-img img{
+    width: 100%;
+ }
+ .tour-details h2 , .tour-details >p{
+    margin-bottom: 1.34rem;
+ }
+ .tour-details ul>li{
+    margin-bottom: 0.89rem;
+ }
+ .tour-btn{
+    margin-top: 0.45rem;
+    width: 9.6rem;
+ }
+
+
+
+ /*tour section ends*/
 
 
