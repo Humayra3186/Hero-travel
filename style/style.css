@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.mulice{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* sharing parts*/
+.position{
+    width: 86%;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+
+h2{
+    color: rgb(19, 19, 24);
+   font-family: Mulish;
+   font-size: 2rem;
+   font-weight: 712;
+   line-height: 2.8rem;
+
+}
+p{
+    color: rgb(90, 90, 93);
+   font-family: Mulish;
+   font-size: 0.89rem;
+   font-weight: 400;
+   line-height: 1.44rem;
+
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-weight: 712;
+    line-height: 1.4rem;
+    border-radius: 6px;
+    background: rgb(255, 84, 0);
+    padding: 0.78rem 1.22rem;
+}
+
+ /* header */
+ header{
+    width: 100vw;
+    height: auto;
+ }
+
+ /* navbar starts */
+ nav{
+    width: 86%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-logo{
+    align-items: center;
+ }
+ .nav-logo i{
+    color: rgb(255, 84, 0);
+    font-size: 2rem;
+    margin-right: 0.89rem;
+ }
+ .nav-logo h3{
+   font-size: 2rem;
+   font-weight: 700;
+   line-height: 2.5;
+   text-align: left;
+ }
+ span {
+    color: rgb(255, 84, 0);
+
+ }
+ .nav-items {
+    width: 44%;  
+
+ }
+ ul{
+    list-style: none;
+    justify-content: space-between;
+
+ }
+ .nav-items a{
+    color: rgb(66, 66, 71);
+    font-size: 1rem;
+    font-weight: 400;
+   line-height: 1.23 rem;
+ 
+ }
+
+ /* navbar ends*/
+
+ /*banner section starts*/
+ .banner-section{
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5.89rem 10.2rem;
+
+ }
+ .banner-content{
+
+    text-align: center;
+ }
+.banner-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 3.56rem;
+    font-weight: 712;
+    line-height: 4.45rem;
+    margin-bottom: 1.3rem;
+
+}
+.banner-content p{
+    color: white;
+    margin-bottom: 2.67rem;
+}
+.banner-form{
+    padding: 0.69rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    justify-content: space-between;
+}
+input,select,button{
+    width: 9.7rem;
+    padding: 0.89rem 0.78rem;
+    border-radius: 6px;
+    border: none;
+  
+}
+select{
+    color: rgba(19, 19, 24, 0.5);
+}
+ /* banner section ends*/
+
+

@@ -1,0 +1,36 @@
+@media screen and (max-width:576px){
+    html{
+        font-size: 12px;
+    }
+    .banner-form{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    input,select,button{
+        margin-bottom: 0.8rem;
+        width: 96%;
+    }
+    .banner-section{
+        padding: 1.89rem 1rem;
+
+    }
+
+    
+}
+
+/*medium devise*/
+@media screen and (min-width:576.01) and (max-width:992px){
+    html{
+        font-size: 14px;
+    }
+    
+}
+
+/*large */
+@media screen and (min-width:1300px){
+    html{
+        font-size: 18px;
+    }
+    
+}
